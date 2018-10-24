@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+    -webkit-box-align: center;
+    box-align: center;
+
+    align-items: center;
+    
+    background-color: limegreen;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.flex-item {
+    width:100%;
+    color: black;    
+    font-size: 3.6em;
+    text-align: center;
+}
+
+.flex-item-footer {
+    width:25%;
+    color: black;    
+    font-size: 1.8em;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    color: white
+}
+
+b {
+    color: white;
+    text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;  
+}
+
+.heart, a, a:hover, a:visited{
+    color:red;
+}
+
+.lega {
+    color: green;
+    text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;  
+}
